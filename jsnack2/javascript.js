@@ -7,7 +7,7 @@ let welcome = NaN;
 
 for (let i = 0; i <= gasbyInvitates.length; i++) {
     if (gasbyInvitates[i] === ceckList.toLowerCase()){
-        welcome = alert("Entra pure, il bagno del grande Gasby è in fondo a destra") + "";
+        welcome = alert("Entra pure, il bagno del grande Gasby è in fondo a destra");
     }
 }
 

@@ -1,18 +1,20 @@
 /* L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore */
 
-let userInput = []
+const userInput = [];
+let Numbers;
 for (let i = 0; i <= 1; i++){
-    let firstNumber = prompt("inserisci un numero")
-    userInput.unshift[firstNumber]
+    Numbers = Number(prompt("inserisci un numero"))
+    userInput.push(Numbers);
 }
 
 if (userInput[0] > userInput[1]){
-    prompt("il primo numero è maggiore del secondo")
+    alert(userInput[0]);
 }
-else if (userInput[0] < userInput[1]){
-    prompt("il secondo numero è maggiore del primo")
+else if (userInput[1] > userInput[0]){
+    alert(userInput[1]);
 }
 else {
-    prompt("i numeri si equivalgono")
+    alert("i numeri si equivalgono");
 }
+
